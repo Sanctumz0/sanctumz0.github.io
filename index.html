@@ -7,6 +7,7 @@
             content="logansplayground.site, initial-scale=1"
             property="og:title"
         >
+        <link rel="stylesheet" href="styles.css"/>
         <title>Logan's HTML PLayground</title>
     </head>
     <body>
@@ -16,8 +17,8 @@
                 <p>Before I start, just know that this is all for my personal practice ;D</p>
             </header>
         </div>
-        <div>
-            <section>This is a generic HTML5 boilerplate for copying and pasting:
+        <section>This is a generic HTML5 boilerplate for copying and pasting:
+            <div class="boilerplate-section">
                 <pre>
                     <code>
                         &lt;!DOCTYPE html&gt;&lt;html lang="en"&gt;
@@ -34,19 +35,20 @@
                         &lt;/html&gt;
                     </code>
                 </pre>
-
-                <p><strong>NOTE:</strong>This uses &lt;pre&gt; and &lt;code&gt; elements to display code (in this case HTML),<br/>
-                I will cover it later, and link it once I get to that part.</p>
-            </section>
-        </div>
+            </div>
+            <p><strong>NOTE:</strong>This uses &lt;pre&gt; and &lt;code&gt; elements to display code (in this case HTML),<br/>
+            I will cover it later, and link it once I get to that part.</p>
+        </section>
         <div>
             <h2><u>Div Element</u></h2>
             <p>This paragraph is inside a &lt;div&gt; (&lt;-- these greater than and less than signs were made with a character reference btw) element, so it's main use case is as a container for CSS and presentation stuff.</p>
         </div>
+        
         <section>
             <h2><u>Section Element</u></h2>
             <p>This paragraph is inside a &lt;section&gt; element, which is used to... well... divide content into sections for your webpage to be easily maintainable...</p>
         </section>
+                    
         <section>
             <h2><u>Audio & Video</u></h2>
             <h3><em><u>Audio Element</u></em></h3>
@@ -122,7 +124,7 @@
 this wont work->src="https://open.spotify.com/embed/track/4FjpNddm5GtoIS81GxoQz1?utm_source=generator"
             </iframe>
 -->
-            <!--This is Spotify's ifram embed:-->
+            <!--This is Spotify's iframe embed:-->
             <iframe 
                 data-testid="embed-iframe" 
                 style="border-radius:12px" 
@@ -134,7 +136,7 @@ this wont work->src="https://open.spotify.com/embed/track/4FjpNddm5GtoIS81GxoQz1
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
             </iframe>
 
-            <p>Here is another, more enjoyeable, iframe example:</p>
+            <p>Here is another, more entertaining, iframe example:</p>
             <iframe
                 title="YouTuber Koreanosh eating Krispy Kreme Donuts in New York City"
                 src="https://youtube.com/embed/-0b7neE0Dxs?si=hgHNn8Ldd8i9So1v"
